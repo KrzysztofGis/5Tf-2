@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bfbfbf;
+}
+
+.container{
+    height: 200px;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden-xs{
+    display: none;
+}
+
+.news-wrapper{}
+.news{}
+
+.news-single{
+    padding: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.news-single__wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.news-single__icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60px;
+    width: 60px;
+    background-color: aqua;
+}
+
+.news-single__icon > svg{
+    height: 40px;
+    width: 40px;
+}
+
+.news-single__content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.news-single__header{
+    display: row;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.news-single__header > h2{
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.news-single__header > span{
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* sm */
+@media (min-width: 576px){
+    .container{
+        width: 540px;
+        margin: 0 auto;
+    }
+
+    .hidden-xs{
+        display: inline-block;
+    }
+
+    .hidden-sm{
+        display: none;
+    }
+}
+
+/* md */
+@media (min-width: 768px){
+    .container{
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .hidden-sm{
+        display: inline-block;
+    }
+
+    .hidden-md{
+        display: none;
+    }
+}
+
+/* lg */
+@media (min-width: 992px){
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .hidden-md{
+        display: inline-block;
+    }
+
+    .hidden-lg{
+        display: none;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px){
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    .hidden-lg{
+        display: inline-block;
+    }
+
+    .hidden-xl{
+        display: none;
+    }
+}
+
+/* xxl */
+@media (min-width: 1400px){
+    .container{
+        width: 1320px;
+        margin: 0 auto;
+    }
+
+    .hidden-xl{
+        display: inline-block;
+    }
+
+    .hidden-xxl{
+        display: none;
+    }
+}
