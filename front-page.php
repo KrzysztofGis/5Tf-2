@@ -24,6 +24,10 @@
                             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, sed! </h2>
                             <span>12.10.2022</span>
                         </header>
+                        <p class="hidden-xs hidden-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam totam veritatis minima alias veniam ipsum, excepturi eum unde commodi libero accusamus, esse saepe. Reprehenderit deserunt assumenda, sed repudiandae, veritatis similique aliquid odio sequi odit dolorum consequuntur eveniet autem aperiam sunt.</p>
+                        <div class="news-single__link_wrapper">
+                            <a href="#">Czytaj więcej</a>
+                        </div>
                     </div>
                 </div>
             </article>
